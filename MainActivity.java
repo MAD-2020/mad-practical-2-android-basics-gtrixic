@@ -106,7 +106,7 @@ public class MainActivity extends AppCompatActivity {
         {
             Log.v(TAG, "Button Middle Clicked!");
         }
-        else
+        if (b == ButtonRight)
         {
             Log.v(TAG, "Button Right Clicked");
         }
